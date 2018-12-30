@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /shiro/
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/idea?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: anhf
+    password: anhf
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
